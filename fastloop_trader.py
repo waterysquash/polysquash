@@ -192,6 +192,7 @@ SIMMER_BASE = os.environ.get("SIMMER_API_BASE", "https://api.simmer.markets")
 
 
 def get_api_key():
+    print(f"DEBUG: All env vars: {list(os.environ.keys())}")
     key = os.environ.get("SIMMER_API_KEY")
     if not key:
         print("Error: SIMMER_API_KEY environment variable not set")
