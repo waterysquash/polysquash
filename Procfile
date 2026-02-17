@@ -1,2 +1,3 @@
-worker: python3 fastloop_trader.py --live --quiet
+worker: python3 fastloop_trader.py --live
+
 
